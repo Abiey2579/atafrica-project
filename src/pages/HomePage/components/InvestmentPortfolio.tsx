@@ -83,7 +83,7 @@ const InvestmentPortfolio = () => {
 
   return (
     <div className="flex flex-col justify-center gap-5 items-center my-20 mx-auto  lg:w-3/4 w-full px-5">
-      <div className="space-y-3 w-1/2 shadow-2xl rounded-lg bg-white p-5 border">
+      <div className="space-y-3 lg:w-1/2 w-full shadow-2xl rounded-lg bg-white p-5 border">
         <div className="flex justify-between">
           <h1 className="font-semibold text-blue-950">
             Risk score: {riskTolerance}

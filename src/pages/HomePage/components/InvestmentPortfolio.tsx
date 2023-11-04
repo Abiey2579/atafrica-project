@@ -61,7 +61,7 @@ const Stocks = (props: { stockData: StockDataTypes }) => {
           </div>
         );
       })}
-      <div className="grid grid-cols-3 gap-3 items-center mt-10 text-sm">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 items-center mt-10 text-sm">
         {NegativeStocks.map((stock: [string, number]) => (
           <div key={stock[0]} className="flex justify-between text-slate-300">
             <p>{stock[0]}</p>

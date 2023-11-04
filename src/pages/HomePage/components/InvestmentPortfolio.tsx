@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, RangeSlider } from "flowbite-react";
+import { RangeSlider } from "flowbite-react";
 import { QuestionMarkCircleIcon } from "@heroicons/react/24/outline";
 import { StockData } from "../../../assets/data";
 

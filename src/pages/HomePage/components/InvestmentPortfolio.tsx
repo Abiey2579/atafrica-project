@@ -86,7 +86,7 @@ const InvestmentPortfolio = () => {
       <div className="space-y-3 lg:w-1/2 md:w-3/4 w-full shadow-2xl rounded-lg bg-white p-5 border">
         <div className="flex justify-between">
           <h1 className="font-semibold text-blue-950">
-            Risk score: {riskTolerance}
+            Risk Tolerance: {riskTolerance}
           </h1>
           <p className="text-sm">Example portfolio</p>
         </div>
